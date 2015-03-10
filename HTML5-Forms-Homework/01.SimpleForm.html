@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="UTF-8">
+	    <link rel="stylesheet" type="text/css" href="css/01.SimpleTable.css"> 
+	    <title>Simple Form</title>
+
+	</head>
+
+	<body>
+
+	  <div id="container">
+
+		  <h2>Enter the system</h2>
+	      <p id="reqiremetns">It is nesessary to login to your account in order to sign up for a course</p>
+
+          <div id="new-user">
+	          <form method="post">
+		      <h5>ARE YOU NEW? <span>REGISTER</span></h5>
+		      <input type="text" name="new-username" placeholder="User name"  autocomplete="on" required>
+		      <input type="email" name="new-user-email" placeholder="Email"  autocomplete="on" required>
+		      <input type="password" name="new-user-password" placeholder="Password" required>
+		      <input type="password" name="confimrr-password" placeholder="Confirm password" required>
+		      <input id="register-button"  type="submit" value="Register" >
+	          </form>		
+          </div>
+          	
+  	      <div id="registerd-user">
+	  	      <form method="post">
+		      <h5>ALREADY A STUDENT? LOGIN</h5>
+		      <input type="text" name="registerd-username" placeholder="Username" autocomplete="on" required>
+		      <input  type="password" name="registered-user-password" placeholder="Password" required>
+		      	<input id="remember" type="checkbox" name="remember-password" value="yes">
+			    <label for="remember"> Remember me?</label>
+			    <input id="login-button" type="submit" value="Login">
+			  	<a href="#">Forgot password</a>
+			
+		      </form>
+	      </div>    	
+  	     
+	  </div>
+
+	</body>
+
+</html>

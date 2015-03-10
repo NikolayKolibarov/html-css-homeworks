@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/02.FlightOrder.css">
+		<title>Flight Order</title>
+
+	</head>
+
+	<body>
+
+		<div id="container">
+			<h2>FLIGHT ORDER</h2>
+			<form method="post" id="flight-order">
+				<fieldset name="flight-order" form="flight-order">
+
+					<div class="left">
+					    <label for="departure">From</label>
+						<select name="departure" id="departure"  reqired>
+						    <option selected="selected">enter a city</option>
+							<option value="Sofia">Sofia</option>
+							<option value="Athens">Athens</option>
+							<option value="Bucharest">Bucharest</option>
+							<option value="Belgrad">Belgrad</option>
+							<option value="Skopje">Skopje</option>
+							<option value="Istanbul">Istanbul</option>
+						</select>
+                     </div>
+
+                     <div class="right">
+						<label for="arrival">To</label>
+						<select name="arrival" id="arrival" reqired>
+						    <option selected="selected">enter a city</option>
+							<option value="Sofia">Sofia</option>
+							<option value="Athens">Athens</option>
+							<option value="Bucharest">Bucharest</option>
+							<option value="Belgrad">Belgrad</option>
+							<option value="Skopje">Skopje</ocoption>
+							<option value="Istanbul">Istanbul</option>
+						</select>
+					 </div>
+
+					 <div >
+					 	<input id="refer-directs" type="checkbox" name="refer-directs" value="yes">
+			            <label for="refer-directs" id="refer-label"> Refer directs</label>
+					 </div>
+
+					 <div class="left">
+					    <label for="departure-date">Departure date</label>
+						<input type="date" id="departure-date">
+                     </div>
+
+                     <div class="right">
+					    <label for="departure-start-time">Time interval</label>
+						<input type="time"  name= "departure-start-time" id="departure-start-time" class="start-end-time">
+						<input type="time" name= "departure-end-time" id="departure-end-time" class="start-end-time">
+                     </div>
+
+                     <div class="left">
+					    <label for="return-date">Return date</label>
+						<input type="date" id="return-date">
+                     </div>
+
+                     <div class="right">
+					    <label for="arrival-start-time">Time interval</label>
+						<input type="time"  name= "arrival-start-time" id="arrival-start-time" class="start-end-time">
+						<input type="time" name= "arrival-end-time" id="arival-end-time" class="start-end-time">
+                     </div>
+
+                     <div class="left">
+					    <label for="12+">12+</label>
+						<input type="number" max="12" min="0" id="12+" class="numbers">
+                     </div>
+                     <div class="left">
+						<label for="2-12">2-12</label>
+						<input type="number" max="12" min="2" id="2-12" class="numbers">
+                     </div>
+                     <div class="left">
+						<label for="0-2">0-2</label>
+						<input type="number"  max="2" min="0" id="0-2" class="numbers">
+			         </div>
+
+			         <div class="right">
+						<label for="class">Choose class</label>
+						<select name="class" id="class" reqired>
+						    <option selected="economy">Economy</option>
+							<option value="business">Bussines</option>
+						</select>
+					 </div>
+
+					  <input type="submit" value="Search">
+                    
+
+				</fieldset>
+			</form>
+		</div>
+		
+	</body>
+
+</html>

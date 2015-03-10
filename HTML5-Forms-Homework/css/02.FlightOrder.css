@@ -1,0 +1,65 @@
+#container {
+	max-width: 400px;
+	height: auto;
+	background-color: #FEC0CF;
+}
+
+h2 {
+	font-style: italic;
+	font-weight: bolder;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+}
+
+label {
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+select {
+	width: 165px;
+	margin-right: 10px;
+	margin-left: 10px;
+}   
+
+.left {
+	float: left;
+}
+
+.right {
+	float: left;
+}
+
+input {
+	width: 165px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#refer-directs {
+	float: left;
+	margin-left: 120px;
+}
+#refer-label{
+	float: left;
+	margin-left: -80px;
+}
+
+.start-end-time {
+	width: 80px;
+	float: left;
+	margin-right: 3px;
+	margin-left: 0px;
+
+}
+
+.numbers {
+	width: 45px;
+	float: left;
+	margin-right: 0px;
+}

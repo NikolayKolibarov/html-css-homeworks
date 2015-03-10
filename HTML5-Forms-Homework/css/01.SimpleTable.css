@@ -1,0 +1,93 @@
+html {
+	font-family: 'Tahoma', sans-serif;
+}
+
+body {
+	background-color: #EEEEEE;
+}
+
+#container {
+	max-width: 600px;
+	height: auto;
+	background-color: #EEEEEE;
+}
+
+ h2 {
+ 	color: #12273A;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+span {
+   color: #3A4B5B;
+}
+
+#reqiremetns{
+	color: #8D8D8D;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#new-user {
+	width: 280px;
+	height: 250px;
+    float: left;
+    padding-left: 20px;
+    background-color: #EEEEEE;
+
+}
+
+#registerd-user {
+	width: 280px;
+	height: 235px;
+	float: left;
+	padding-left: 20px;
+	background-color: #234467;
+	color: white;
+}
+
+form input {
+	margin-bottom: 10px;
+	width: 90%;
+	height: 20px;
+}
+
+#register-button {
+	width: 40%;
+	float: right;
+	margin-right:25px;
+	height: 30px;
+	border: 2px solid #234467;
+	color: #234467;
+	background-color: #EEEEEE;
+}
+
+#login-button {
+	width: 30%;
+	margin-right:25px;
+	height: 30px;
+	border: 2px solid #d08916;
+	color: white;
+	background-color: #234467;
+	float: right;
+}
+
+label {
+	vertical-align: top;
+	font-size: 11px;
+}
+
+#remember {
+	margin-left: -5px;
+	float: left;
+	width: 10%;
+}
+
+a {
+	clear: both;
+	font-size: 11px;
+    text-decoration: underline;
+    color: white;
+    float: right;
+    padding-right: 25px;
+}

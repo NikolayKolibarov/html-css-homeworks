@@ -1,0 +1,101 @@
+body {
+	background color:#9E9E9E;
+	font-family: Calibri;
+
+}
+
+table {
+	max-width: 700px;
+	height: auto;
+	border-radius: 5px;
+	border-spacing: 10px;
+    border-collapse: separate;
+    background color:#9E9E9E;
+    float: left;
+}
+
+th {
+	padding-left: 20px;
+	color: #33495E;
+	font-size: 40px;
+	text-align: left;
+}
+
+td {
+	max-width: 220px;
+	height: auto;
+	border: 1px solid #58c4b1;
+	border-radius: 5px;
+	margin: 150px;
+}
+
+button {
+	border: none;
+	background-color: white;
+	color: #33495E;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.model {
+	font-weight: bold;
+	font-family:  Calibri;
+	font-size: 1.0em;
+	text-align: left;
+}
+
+.parameters {
+	font-family:  Calibri;
+	font-size: 1.0em;
+	text-align: left;
+}
+
+.price {
+	width: 100px;
+	height:30px;
+	background-color: #2D4760;
+	color: white;
+	border-top-left-radius: 5px;
+    padding-top: 10px;
+	float: right;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#range {
+	width: 260px;
+	height: 530px;
+	border: 1px solid #58c4b1;
+	border-radius: 5px;
+	float: left;
+	color: #33495E;
+}
+
+.parameter {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.range {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.min {
+	
+	float: left;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.max {
+	float: right;
+	padding-right: 10px;
+	font-weight: bold;
+
+}

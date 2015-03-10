@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="UTF-8">
+		<title>Fakebook</title>
+		<link rel="stylesheet" type="text/css" href="css/04.FakebookRegisterForm.css">
+		
+	</head>
+
+	<body>
+
+	   <div id="container">
+
+		   <div id="header">
+			   <div id="registerd">
+			  	 <span>fakebook</span>&reg;</span>
+			   </div>
+			   <h2>Registration</h2>
+			   <h4>It is safe and it will always be!</h4>  		   	
+		   </div>
+
+		   <div id="form">
+			   <form method="post">
+
+                <div id="leftfieldset">
+	                <fieldset id="left">
+					   	<legend>None-Important Information</legend>
+					   	<input type="text" name="first-name" placeholder="First Name" class="non-important">
+					   	<input type="text" name="last-name" placeholder="Last Name" class="non-important">
+					   	<input type="email" name="email" placeholder="Your Email" class="non-important" 
+					   	pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}">
+					   	<input type="tel" name="phone-number" placeholder="Phone Number" class="non-important"
+					   	pattern="\+[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}">
+					   	<input type="password" name="password" placeholder="Password" class="non-important">
+					   	<input type="text" name="website" placeholder="Website" class="non-important">
+					   	<label for="birthday" class="label">Birthday</label>
+					   	<input type="datetime-local" id="birthday" name="birthday">
+					   	<div id="gender">
+						   	<input type="radio" name="sex" value="female" id="female"><label for="female">Female</label>
+						   	<input type="radio" name="sex" value="male" id="male"><label for="male">Male</label>
+						   	<input type="radio" name="sex" value="other" id="other"><label for="other">Other</label>	   		
+					   	</div>
+				   	</fieldset>               	
+                </div>
+              
+                <div id="rightfieldset">
+	                <fieldset id="right">
+				   		<legend>Importan Information *reqired</legend>
+				   		<select name="Country" id="country" class="important-info" required>
+						    <option selected="selected">Country</option>
+							<option value="Sofia">Sofia</option>
+							<option value="Athens">Athens</option>
+							<option value="Bucharest">Bucharest</option>
+							<option value="Belgrad">Belgrad</option>
+							<option value="Skopje">Skopje</option>
+							<option value="Istanbul">Istanbul</option>
+						</select>
+						<input type="text" name="Village" placeholder="Village" class="important-info" required>
+					   	<input type="text" name="district" placeholder="District" class="important-info" required>
+					   	<input type="text" name="street" placeholder="Street" class="important-info" required>
+					   	<input type="text" name="number" placeholder="Number" class="address" required>
+					   	<input type="text" name="floor" placeholder="Floor" class="address" required>
+					   	<input type="text" name="apt-numbr" placeholder="Ap Nr" class="address" required><br>
+					   	<label for="color" class="label">Door Color</label>
+					   	<input type="color" name="color" id="color" value="#ff00ff" class="three-inarow" required>
+					   	<input type="text" name="water-meeter" placeholder="Water Meter Nr" id="water-meter" required>
+					   	<select name="panties-size" id="panties" class="three-inarow" required>
+						    <option selected="selected">Aunt Panties' Size</option>
+							<option value="Sofia">L</option>
+							<option value="Athens">XL</option>
+							<option value="Bucharest">XXL</option>
+							<option value="Belgrad">XXXL</option>
+							<option value="Skopje">Too big to fit in an integer</option>
+						</select>
+						<label for="personal" class="label">More Personal Information</label>
+						<textarea name="personal-info" placeholder="Give us more infomration!!!" required></textarea>
+				   	</fieldset>
+                </div>
+
+                 <div id="buttons">
+                 	 <input type="reset" value="Clear Form" id="clear">
+                 	 <input type="submit" value="Register" id="submit">
+                 </div>
+
+			   </form>	   	
+		   </div>
+
+	   </div>
+		
+	</body>
+
+</html>

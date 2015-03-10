@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+			<meta charset="UTF-8">
+			<title>Laptop Choise</title>
+			<link rel="stylesheet" type="text/css" href="css/05.LaptopChoice.css">	
+
+	</head>
+
+	<body>
+
+	  <table>
+		  <tr>
+		  	<th colspan="2">Apple's Laptops(6)</td>		  	
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<button onclick="window.open('http://www.technopolis.bg');">
+		  		<div class="model">APPLE MB AIR MD760Z/A</div>
+		  		<div class="parameters">13,3 inch/2.60 GHz INTEL CORE i5 4GB RAM</div>
+		  		<img src="images/model1.png" alt="APPLE MB AIR MD760Z/A">		  			
+		  		</button>
+		  		<div class="price">1929.00 ЛВ</div>
+		  	</td>	
+		  	<td>
+		  	    <button onclick="window.open('http://www.technopolis.bg');">
+		  		<div class="model">APPLE MB AIR MD760Z/B</div>
+		  		<div class="parameters">13,3 inch/2.70 GHz INTEL CORE i5 4GB RAM</div>
+		  		<img src="images/model2.png" alt="APPLE MB AIR MD760Z/A">		  			
+		  		</button>
+		  		<div class="price">2029.00 ЛВ</div>		  		
+		  	</td>
+		  	<td>
+		  	    <button onclick="window.open('http://www.technopolis.bg');">
+		  		<div class="model">APPLE MB PRO Z0N3000C3/BG</div>
+		  		<div class="parameters">13,3 inch/3.10 GHz INTEL CORE i5 8GB RAM</div>
+		  		<img src="images/model3.png" alt="APPLE MB AIR MD760Z/A">		  			
+		  		</button>
+		  		<div class="price">2549.00 ЛВ</div>		  		
+		  	</td>  	
+		  </tr>
+
+		   <tr>
+		  	<td>
+		  		<button onclick="window.open('http://www.technopolis.bg');">
+		  		<div class="model"> APPLE MB PRO Z0PW000FC/BG-ME662Z/A</div>
+		  		<div class="parameters">13,3 inch/3.20 GHz INTEL CORE i5 8GB RAM</div>
+		  		<img src="images/model4.png" alt="APPLE MB AIR MD760Z/A">		  			
+		  		</button>
+		  		<div class="price">3439.00 ЛВ</div>
+		  	</td>	
+		  	<td>
+		  	   <button onclick="window.open('http://www.technomarket.bg');">
+		  		<div class="model">APPLE MACBOOK AIR 13'' MD761Z/A/Z0P00009</div>
+		  		<div class="parameters">13,3 inch/1.30 GHz INTEL CORE i5 4GB RAM</div>
+		  		<img src="images/model5.jpg" alt="APPLE MB AIR MD760Z/A">		  			
+		  		</button>
+		  		<div class="price">2319.00 ЛВ</div>		  		
+		  	</td>
+		  	<td>
+		  	    <button onclick="window.open('http://www.technomarket.bg');">
+		  		<div class="model">APPLE MACBOOK PRO 15'' ME665Z/A</div>
+		  		<div class="parameters">15,4 inch/2.60 GHz INTEL CORE i7 16GB RAM</div>
+		  		<img src="images/model6.jpg" alt="APPLE MB AIR MD760Z/A">		  			
+		  		</button>
+		  		<div class="price">5099.00 ЛВ</div>		  		
+		  	</td>  	
+		  </tr>  	
+	  </table>
+
+	  <div id="range">
+
+	    <div class="parameter">Price</div> 
+	    <div class="measure"><span class="min">1700</span> <span class="max">2600</span></div>
+	    <input class="range" type="range" name="price" min="1700" max="2600" step="100" >
+
+	    <div class="parameter">RAM</div> 
+	    <div class="measure"><span class="min">2048</span> <span class="max">4096</span></div>
+	    <input class="range" type="range" name="ram" min="2048" max="4096" step="256" >
+
+	    <div class="parameter">Disk</div> 
+	    <div class="measure"><span class="min">100GB</span> <span class="max">2000GB</span></div>
+	    <input class="range" type="range" name="disk" min="100" max="20000" step="100" >
+
+	    <div class="parameter">Display</div> 
+	    <div class="measure"><span class="min">11.6</span> <span class="max">18.4</span></div>
+	    <input class="range" type="range" name="display" min="11.6" max="18.4" step="0.8" >
+
+	    <div class="parameter">Weight</div> 
+	    <div class="measure"><span class="min">1</span> <span class="max">6</span></div>
+	    <input class="range" type="range" name="weight" min="1" max="6" step="0.6" >
+
+	    <div class="parameter">Warranty</div> 
+	    <div class="measure"><span class="min">12 months</span> <span class="max">60 months</span></div>
+	    <input class="range" type="range" name="warranty" min="12" max="60" step="12" >
+
+	  </div>
+		
+	</body>
+
+</html>

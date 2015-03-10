@@ -1,0 +1,26 @@
+#container {
+	max-width: 600px;
+	height: auto;
+}
+
+#upload {
+	margin-left: 10px;
+}
+
+#search {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#searchbox {
+	width: 20%;
+	height: 25px;
+}
+
+#button {
+	vertical-align: bottom;
+}
+
+span {
+	vertical-align: bottom;
+}
